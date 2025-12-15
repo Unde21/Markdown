@@ -1,24 +1,26 @@
 *This project has been created by Florent Cretin.*
+<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
+<!-- 🗎 🖋 👀 🗣 -->
 
 [TagLinkMd]: links-images.md
 [TagReadmeMd]: README.md
 [TagMarkdownTutoriale]: https://www.markdowntutorial.com
 
 
-# Markdown Learning Repository
+# 𝕄arkdown Learning Repository
 
-## Documentation
+## 🗓 𝕊ummary
 
 - [Description](#description)
 - [Objectives](#objectives)
-- [Repository Structure Tree](#repository-structure-tree)
-- [Requirements](#requirements)
+- [📁 Repository Structure Tree](#repository-structure-tree)
+- [🛠 Requirements](#requirements)
 - [Usage](#objectives)
 - [Learning Notes](#learning-notes)
 - [Resources](#resources)
-- [Author](#author)
+- [🖋 Author](#author)
 
-## Description
+## 𝔻escription
 
 > This repository is dedicated to **learning, practicing, and documenting Markdown**.
 
@@ -28,61 +30,59 @@
 
 ![Markdown](https://grafikart.fr/uploads/icons/markdown.svg "oui c'est gros")
 
-## Objectives
+## 𝕆bjectives
 
 - Learn Markdown syntax from basics to advanced usage
 - Maintain a clean and reusable Markdown reference
 - Practice writing clear technical documentation
 - Understand how Markdown is rendered across different platforms (GitHub, GitLab, documentation tools)
 
-## Repository Structure Tree
+## 📁 ℝepository Structure Tree
 
 ```mermaid
 flowchart LR
-    root["."]
+    root["/"]
 
     root --> exemples["exemples/"]
     exemples --> basics["Basics.md"]
     exemples --> links["links-images.md"]
-    %% exemples --> preview["markdownlivepreview.md"]
 
     root --> readme["README.md"]
     click basics "https://github.com/Lzozoflo/Markdown/blob/main/exemples/Basics.md" "Open Basics"
     click links "https://github.com/Lzozoflo/Markdown/blob/main/exemples/links-images.md" "Open links-images"
-    %% click preview "https://github.com/Lzozoflo/Markdown/blob/main/exemples/markdownlivepreview.md" "Open preview"
     click readme "https://github.com/Lzozoflo/Markdown/blob/main/README.md" "Open README"
 
 ```
 
-## Requirements
+## 🛠 ℝequirements
 
 - Any text editor
 - A Markdown renderer (GitHub, VS Code preview, [markdownlivepreview](https://markdownlivepreview.com/), [jotbird](https://www.jotbird.com/app), or similar)
 - Basic reading comprehension ;)
 
-## Usage
+## 𝕌sage
 
-Open any `.md` file and read it directly on GitHub or through your editor’s Markdown preview.
+> Open any `.md` file and read it directly on GitHub or through your editor’s Markdown preview.
+>
+> You are encouraged to modify, extend, and experiment with the files.
 
-You are encouraged to modify, extend, and experiment with the files.
-
-## Learning Notes
+## 𝕃earning Notes
 
 Each file is written with the following principles:
 
-- One concept at a time
-- Minimal but clear examples
-- Comments explaining *why* something is written this way
-- [Exercise][TagMarkdownTutoriale]
+1. One concept at a time
+1. Minimal but clear examples
+1. Comments explaining *why* something is written this way
+1. [Exercise][TagMarkdownTutoriale]
+1.
 
-## Resources
+## ℝesources
 
-### References
+### ℝeferences
 
 - [Markdown Tutoriale][TagMarkdownTutoriale]
 - 
 
+## 🖋 𝔸uthor
 
-## Author
-
-All implementation decisions and documentation were written and validated by the project author.
+> All implementation decisions and documentation were written and validated by the project author.
