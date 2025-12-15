@@ -44,13 +44,13 @@ flowchart LR
     root --> exemples["exemples/"]
     exemples --> basics["Basics.md"]
     exemples --> links["links-images.md"]
-    exemples --> preview["markdownlivepreview.md"]
+    %% exemples --> preview["markdownlivepreview.md"]
 
     root --> readme["README.md"]
     click basics "https://github.com/Lzozoflo/Markdown/blob/main/exemples/Basics.md" "Open Basics"
-    click links "exemples/links-images.md" "Open links-images"
-    click preview "exemples/markdownlivepreview.md" "Open preview"
-    click readme "README.md" "Open README"
+    click links "https://github.com/Lzozoflo/Markdown/blob/main/exemples/links-images.md" "Open links-images"
+    %% click preview "https://github.com/Lzozoflo/Markdown/blob/main/exemples/markdownlivepreview.md" "Open preview"
+    click readme "https://github.com/Lzozoflo/Markdown/blob/main/README.md" "Open README"
 
 ```
 
