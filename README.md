@@ -1,4 +1,5 @@
 *This project has been created by Florent Cretin.*
+
 <!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
 <!-- 🗎 🖋 👀 🗣 -->
 
@@ -80,7 +81,7 @@ Each file is written with the following principles:
 1.
 
 
-## <h2 id="resources">ℝesources</h2>
+<h2 id="resources">ℝesources</h2>
 
 ### ℝeferences
 

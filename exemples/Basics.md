@@ -1,14 +1,17 @@
 *This project has been created by Florent Cretin.*
+<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕀 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
+<!-- 🗎 🖋 👀 🗣 -->
 
+# 𝕄arkdown Learning Repository
 
-# Markdown Learning Repository
+## 🗓 𝕊ummary
 
-## Documentation
-
-- ##### [Header](#header)
-- [Line](#line)
-- [*Italics*](#italics)
-- [**Bold**](#bold)
+- [ℍeader](#header)
+- [𝕃ine](#line)
+- [𝕀talics](#italics)
+- [𝔹old](#bold)
+- [𝔼verything](#everything)
+- [🖋 𝔸uthor](#author)
 
 <br>
 
@@ -16,10 +19,10 @@
 
 <br>
 
-## Header
+<h2 id="header">ℍeader</h2>
 
 
-#### Visual
+#### 👀 𝕍isual
 
 >    # header1 `<h1>`
 >    ## header2 `<h2>`
@@ -29,7 +32,7 @@
 >    ###### header6 `<h6>`
 
 
-#### Explain
+#### 🗣 𝔼xplain
 
 ```text
 >    # header1 `<h1>` 
@@ -46,10 +49,11 @@
 
 <br>
 
-## Line
+<h2 id="line">𝕃ine</h2>
 
 
-#### Visual
+#### 👀 𝕍isual
+
 
 > `-----------------------------`
 > something write
@@ -60,7 +64,7 @@
 > here
 > `-----------------------------`
 
-#### Explain
+#### 🗣 𝔼xplain
 
 
 ```text
@@ -80,16 +84,15 @@
 
 <br>
 
+<h2 id="italics">𝕀talics</h2>
 
-## *Italics*
-
-#### Visual
+#### 👀 𝕍isual
 
 > *Italics* 
 >
 > _Italics_ 
 
-#### Explain
+#### 🗣 𝔼xplain
 
 ```text
 > *Italics* 
@@ -104,14 +107,14 @@
 <br>
 
 
-## **Bold**
+<h2 id="bold">𝔹old</h2>
 
-#### Visual
+#### 👀 𝕍isual
 > **Bold** 
 >
 > __Bold__
 
-#### Explain
+#### 🗣 𝔼xplain
 
 ```text
 > **Bold** 
@@ -125,9 +128,9 @@
 
 <br>
 
-## ***Everthing***
+<h2 id="everything">𝔼verthing</h2>
 
-#### Visual
+#### 👀 𝕍isual
 > *Italics* 
 > # *Italics* 
 > ## *Italics* 
@@ -157,7 +160,7 @@
 > ## ___Bold and Italics___ 
 
 
-#### Explain
+#### 🗣 𝔼xplain
 
 ```text
 > *Italics* 
@@ -198,6 +201,6 @@
 <br><br>
 
 
-## Author
+<h2 id="author">🖋 𝔸uthor</h2>
 
 All implementation decisions and documentation were written and validated by the project author.
