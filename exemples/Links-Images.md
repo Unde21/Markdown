@@ -1,15 +1,22 @@
 *This project has been created by Florent Cretin.*
-<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕀 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
-<!-- 🗎 🖋 👀 🗣 -->
+<!-- Ceci sont des commentaire pour avec mes font et mes icon personnaliser -->
+<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
+<!-- 𝕒 𝕓 𝕔 𝕕 𝕖 𝕗 𝕘 𝕙 𝕚 𝕛 𝕜 𝕝 𝕞 𝕟 𝕠 𝕡 𝕢 𝕣 𝕤 𝕥 𝕦 𝕧 𝕨 𝕩 𝕪 𝕫  -->
+<!-- 𝟘 𝟙 𝟚 𝟛 𝟜 𝟝 𝟞 𝟟 𝟠 𝟡 -->
+<!-- 📘 🗎 🖋 👀 🗣 … -->
+<!-- Double-struck font -->
+<!-- 𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡 -->
 
-<!-- tag place -->
 
+<!-- [Tag-test]: url "on hover" -->
 
 ## 🗓 𝕊ummary
 
 
 - [Link](#link)
 - [Images](#images)
+
+</details>
 
 <br>
 
@@ -19,8 +26,11 @@
 
 <h2 id="link">𝕃ink</h2>
 
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
 
-#### 👀 𝕍isual
 
 1. [`[]()`](https://www.markdowntutorial.com/lesson/3/ "oui")
 
@@ -30,7 +40,13 @@
 
 ---
 
-#### 🗣 𝔼xplain
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
 ```text
 
     1.  [`[]()`](https://www.markdowntutorial.com/lesson/3/ "oui")
@@ -40,6 +56,8 @@
     1.  [message][taglink]
 ```
 
+</details>
+
 <br>
 
 ---
@@ -48,8 +66,11 @@
 
 <h2 id="images">𝕀mages</h2>
 
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
 
-#### 👀 𝕍isual
 
 <!-- [tag]: www.link.com -->
 [imagescat]: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg
@@ -65,7 +86,13 @@
 
 ---
 
-#### 🗣 𝔼xplain
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
 
 ```text
     <!-- [tag]: www.link.com -->
@@ -84,6 +111,8 @@
 
 ```
 
+</details>
+
 <br>
 
 ---
@@ -94,8 +123,11 @@
 <h2 id="exsummary">𝔼xemple 🗓 summary</h2>
 
 
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
 
-#### 👀 𝕍isual
 
 ###### 🗓 𝕊ummary
 
@@ -103,7 +135,13 @@
 - [𝕀mages](#images)
 - [🗓 𝔼xemple summary](#exsummary)
 
-#### 🗣 𝔼xplain
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
 
 > When using uncommon characters in a heading, you must explicitly define an id, for example: **`<h2 id="exsummary">𝔼xemple 🗓 summary</h2>`**, in order to create a working anchor link.
 
