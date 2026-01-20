@@ -16,6 +16,15 @@
 
 - [𝔼n-têtes](#en-têtes)
 - [𝕄ise en forme](#mise_en_forme)
+    - [Mettre l'accent sur un élément](#mettre-laccent-sur-un-élément)
+    - [Citations/mise en page](#citationsmise-en-page)
+    - [Bloc de code](#bloc-de-code)
+    - [Les listes](#les-listes)
+    - [Couleur](#couleur)
+- [Tableaux](#Tableaux)
+- [Medias](#Medias)
+- [Graphique](#Graphique)
+
 
 <br>
 
@@ -69,7 +78,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 ## Mettre l'accent sur un élément
 
-### <u>Italique</u>
+### <ins>Italique</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -93,7 +102,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 
-### <u>Gras</u>
+### <ins>Gras</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -118,7 +127,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 </details>
 
 
-### <u>Gras et italique</u>
+### <ins>Gras et italique</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -141,7 +150,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 </details>
 
 
-### <u>Barré</u>
+### <ins>Barré</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -171,7 +180,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     </summary>
 <br>
 
-><u>Ce texte est souligné</u>
+><ins>Ce texte est souligné</ins>
 
 </details>
 
@@ -181,12 +190,12 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     </summary>
 
 ```
-<u>Ce texte est souligné</u>
+<ins>Ce texte est souligné</ins>
 ```
 
 </details>
 
-### <u>Gras et Référencement</u>
+### <ins>Gras et Référencement</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -213,10 +222,9 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 ---
 
+## Citations/mise en page
 
-## Citations 
-
-### <u>Citations/mise en page</u>
+### <ins>Simple</ins>
 
 <details>
     <summary>
@@ -225,6 +233,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 <br>
 
 > Ceci est une citation en bloc.
+
 </details>
 
 <details>
@@ -238,7 +247,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 
-### <u>Citation avec plusieurs paragraphes</u>
+### <ins>Citation avec plusieurs paragraphes</ins>
 
 <details>
     <summary>
@@ -264,7 +273,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 
-### <u>Citation impbriquées</u>
+### <ins>Citation impbriquées</ins>
 
 <details>
     <summary>
@@ -299,7 +308,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 </details>
 
 
-### <u>Citation contenant d'autres éléments</u>
+### <ins>Citation contenant d'autres éléments</ins>
 
 Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous les éléments ne sont pas utilisables ; il vous faudra faire des essais pour déterminer lesquels fonctionnent.
 
@@ -335,6 +344,7 @@ Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous l
 
 
 <br>
+<br>
 
 ---
 
@@ -356,70 +366,95 @@ type de code(text,c,py,…)
         <strong>🗣 𝔼xplain</strong>
     </summary>
 
-```
-> ## Ma liste de course
->
->- Tomate
->- Carotte
->- Pomme de terre
->	- Pour la raclette
-```
+>\```   
+type de code(text,c,py,…)   
+>\```
 
 </details>
 
-
 <br>
->\``` "type de code(text,c,py,…)"<br>
->Bloc de code<br>
->\```
+<br>
 
-
-
-```
-type de code(text,c,py,…)"
-``` 
+---
 
 ## Les listes
 
-### Listes ordonnées
+### <ins>Listes ordonnées</ins>
 
-```
+
+<details>
+    <summary>
+        <strong>👀 Visual</strong>
+    </summary>
+
+<br>
+
 1. First item
 2. Second item
 3. Third item
 4. Fourth item
-```
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
 
-```
-1. First item
-1. Second item
-1. Third item
-5. Fourth item
-```
+<br>
+
 1. First item
 1. Second item
 1. Third item
 5. Fourth item
 
+</details>
 
 <details>
     <summary>
         <strong>🗣 𝔼xplain</strong>
     </summary>
 
-```text
->    <h1 id="id for summary">h1 html header1 <h1>
+<br>
 
->    # header1 `<h1>` 
->    ## header2 `<h2>` 
->    ### header3 `<h3>` 
->    #### header4 `<h4>` 
->    ##### header5 `<h5>` 
->    ###### header6 `<h6>` 
+```
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+```
+
+```
+1. First item
+1. Second item
+1. Third item
+5. Fourth item
 ```
 
 </details>
+
+<br>
+
+## Couleur
+
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+$\color{red}{\text{Ce texte est en rouge}}$
+$\color{purple}{\text{Ce texte est en violet}}$
+$\color{orange}{\text{Ce texte est en orange}}$
+$\color{green}{\text{Ce texte est en vert}}$
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+$\color{red}{\text{Ce texte est en rouge}}$
+$\color{purple}{\text{Ce texte est en violet}}$
+$\color{orange}{\text{Ce texte est en orange}}$
+$\color{green}{\text{Ce texte est en vert}}$
+```
+
+</details>
+
+
