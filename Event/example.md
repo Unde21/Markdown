@@ -12,11 +12,12 @@
 
 # ![][tag_icon_md] Markdown ![][tag_icon_md]
 
+<br>
+
 <details>
     <summary>
-        <span style="font-size: 2.0em; font-weight: bold;">𝕊ommaire</span>
+        <h1>𝕊ommaire</h1>
     </summary>
-<br>
 
 - [𝔼n-têtes](#en)
 - [𝕄ise en forme](#mise_en_forme)
@@ -31,14 +32,13 @@
 
 </details>
 
-<br>
-
 ---
 
 <details id= "en">
     <summary>
-        <span style="font-size: 2.0em; font-weight: bold;">𝔼n-têtes</span>
+        <h1>𝔼n-têtes</h1>
     </summary>
+
 <br>
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
@@ -87,12 +87,14 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 <details id= "mise_en_forme">
     <summary>
-        <span style="font-size: 1.5em; font-weight: bold;">𝕄ise en forme</span>
+        <h1>𝕄ise en forme</h1>
     </summary>
 <br>
-</details>
 
-## Mettre l'accent sur un élément
+<details id= "mise_en_forme">
+    <summary>
+        <h2>Mettre l'accent sur un élément</h2>
+    </summary> 
 
 ### <ins>Italique</ins>
 <details>
@@ -232,12 +234,14 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
-
+</details>
 <br>
 <br>
 
 ---
 
+<details>
+    <summary>
 ## Citations/mise en page
 
 ### <ins>Simple</ins>
@@ -472,5 +476,4 @@ $\color{green}{\text{Ce texte est en vert}}$
 ```
 
 </details>
-
-
+</details>
