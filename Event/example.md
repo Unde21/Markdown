@@ -12,9 +12,13 @@
 
 # ![][tag_icon_md] Markdown ![][tag_icon_md]
 
-# 𝕊ommaire
+<details>
+    <summary>
+        <span style="font-size: 2.0em; font-weight: bold;">𝕊ommaire</span>
+    </summary>
+<br>
 
-- [𝔼n-têtes](#en-têtes)
+- [𝔼n-têtes](#en)
 - [𝕄ise en forme](#mise_en_forme)
     - [Mettre l'accent sur un élément](#mettre-laccent-sur-un-élément)
     - [Citations/mise en page](#citationsmise-en-page)
@@ -25,10 +29,17 @@
 - [Medias](#Medias)
 - [Graphique](#Graphique)
 
+</details>
 
 <br>
 
-<h1 id="en-têtes">𝔼n-têtes</h1>
+---
+
+<details id= "en">
+    <summary>
+        <span style="font-size: 2.0em; font-weight: bold;">𝔼n-têtes</span>
+    </summary>
+<br>
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
 
@@ -70,11 +81,16 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 <br><br>
 
+</details>
+
 ---
 
-<h1 id="mise_en_forme">𝕄ise en forme </h1>
-
+<details id= "mise_en_forme">
+    <summary>
+        <span style="font-size: 1.5em; font-weight: bold;">𝕄ise en forme</span>
+    </summary>
 <br>
+</details>
 
 ## Mettre l'accent sur un élément
 
@@ -273,7 +289,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 
-### <ins>Citation impbriquées</ins>
+### <ins>Citation imbriquées</ins>
 
 <details>
     <summary>
