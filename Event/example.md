@@ -18,18 +18,20 @@
     <summary>
         <h1>𝕊ommaire</h1>
     </summary>
+<ul>
 
 - [𝔼n-têtes](#en)
 - [𝕄ise en forme](#mise_en_forme)
-    - [Mettre l'accent sur un élément](#mettre-laccent-sur-un-élément)
-    - [Citations/mise en page](#citationsmise-en-page)
+    - [Mettre l'accent sur un élément](#accent)
+    - [Citations/mise en page](#citation)
     - [Bloc de code](#bloc-de-code)
-    - [Les listes](#les-listes)
+    - [Les listes](#list)
     - [Couleur](#couleur)
 - [Tableaux](#Tableaux)
 - [Medias](#Medias)
 - [Graphique](#Graphique)
 
+</ul>
 </details>
 
 ---
@@ -39,7 +41,7 @@
         <h2>𝔼n-têtes</h2>
     </summary>
 
-<br>
+<ul>
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
 
@@ -77,11 +79,8 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ##### En-tête de cinquième niveau
 ###### En-tête de sixième niveau
 ``` 
-
+</ul>
 </details>
-
-<br><br>
-
 </details>
 
 ---
@@ -92,10 +91,12 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     </summary>
 <br>
 
+<ul>
 <details id= "accent">
     <summary>
         <h3>Mettre l'accent sur un élément</h3>
     </summary> 
+<ul>
 
 ### <ins>Italique</ins>
 <details>
@@ -236,10 +237,13 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 </details>
-<details>
+
+<details id="citation">
     <summary>
     <h3>Citations/mise en page</h3>
     </summary>
+
+<ul>
 
 ### <ins>Simple</ins>
 
@@ -360,10 +364,12 @@ Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous l
 </details>
 </details>
 
-<details>
+<details id="bloc-de-code">
     <summary>
     <h3>Bloc de code</h3>
     </summary>
+
+<ul>
 
 <details>
     <summary>
@@ -388,10 +394,12 @@ type de code(text,c,py,…)
 </details>
 </details>
 
-<details>
+<details id= "list">
     <summary>
         <h3> Les listes</h3>
     </summary>
+
+<ul>
 
 #### <ins>Listes ordonnées</ins>
 
@@ -441,12 +449,11 @@ type de code(text,c,py,…)
 </details>
 </details>
 
-<ul>
-<details>
+<details id="couleur">
     <summary>
         <h3>Couleur</h3>
     </summary>
-
+<ul>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -475,6 +482,4 @@ $\color{green}{\text{Ce texte est en vert}}$
 </details>
 </details>
 </ul>
-
----
 
