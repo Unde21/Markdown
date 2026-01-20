@@ -36,12 +36,13 @@
 
 <details id= "en">
     <summary>
-        <h1>𝔼n-têtes</h1>
+        <h2>𝔼n-têtes</h2>
     </summary>
 
 <br>
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
+
 
 <details>
     <summary>
@@ -87,13 +88,13 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 <details id= "mise_en_forme">
     <summary>
-        <h1>𝕄ise en forme</h1>
+        <h2>𝕄ise en forme</h2>
     </summary>
 <br>
 
-<details id= "mise_en_forme">
+<details id= "accent">
     <summary>
-        <h2>Mettre l'accent sur un élément</h2>
+        <h3>Mettre l'accent sur un élément</h3>
     </summary> 
 
 ### <ins>Italique</ins>
@@ -235,14 +236,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 
 </details>
 </details>
-<br>
-<br>
-
----
-
 <details>
     <summary>
-## Citations/mise en page
+    <h3>Citations/mise en page</h3>
+    </summary>
 
 ### <ins>Simple</ins>
 
@@ -361,14 +358,12 @@ Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous l
 ```
 
 </details>
+</details>
 
-
-<br>
-<br>
-
----
-
-## Bloc de code
+<details>
+    <summary>
+    <h3>Bloc de code</h3>
+    </summary>
 
 <details>
     <summary>
@@ -391,15 +386,14 @@ type de code(text,c,py,…)
 >\```
 
 </details>
+</details>
 
-<br>
-<br>
+<details>
+    <summary>
+        <h3> Les listes</h3>
+    </summary>
 
----
-
-## Les listes
-
-### <ins>Listes ordonnées</ins>
+#### <ins>Listes ordonnées</ins>
 
 
 <details>
@@ -445,10 +439,13 @@ type de code(text,c,py,…)
 ```
 
 </details>
+</details>
 
-<br>
-
-## Couleur
+<ul>
+<details>
+    <summary>
+        <h3>Couleur</h3>
+    </summary>
 
 <details>
     <summary>
@@ -477,3 +474,7 @@ $\color{green}{\text{Ce texte est en vert}}$
 
 </details>
 </details>
+</ul>
+
+---
+
