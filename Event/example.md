@@ -164,7 +164,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 </details>
 
 
-### <u>Souligné</u>
+### <ins>Souligné</ins>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
