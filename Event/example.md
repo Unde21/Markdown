@@ -18,7 +18,7 @@
     <summary>
         <h1>𝕊ommaire</h1>
     </summary>
-<div style="padding-left: 25px;">
+<blockquote>
 
 - [𝔼n-têtes](#en)
 - [𝕄ise en forme](#mise_en_forme)
@@ -31,7 +31,7 @@
 - [Medias](#Medias)
 - [Graphique](#Graphique)
 
-</ul>
+</blockquote>
 </details>
 
 ---
@@ -41,11 +41,11 @@
         <h2>𝔼n-têtes</h2>
     </summary>
 
-<div style="padding-left: 25px;">
+<blockquote>
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
 
-
+<ul>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -80,25 +80,29 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ###### En-tête de sixième niveau
 ``` 
 </ul>
+</blockquote>
 </details>
 </details>
 
 ---
 
+
 <details id= "mise_en_forme">
     <summary>
         <h2>𝕄ise en forme</h2>
     </summary>
+<blockquote>
 <br>
 
-<div style="padding-left: 25px;">
+<dl><dd>
 <details id= "accent">
     <summary>
         <h3>Mettre l'accent sur un élément</h3>
     </summary> 
-<div style="padding-left: 25px;">
+<blockquote>
 
 ### <ins>Italique</ins>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -108,7 +112,6 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 >*Ce texte est en italique*
 
 </details>
-
 <details>
     <summary>
         <strong>🗣 𝔼xplain</strong>
@@ -121,8 +124,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 ### <ins>Gras</ins>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -145,9 +150,11 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
-
+</dd></dl>
 
 ### <ins>Gras et italique</ins>
+<dl><dd>
+
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -168,9 +175,11 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 
 ### <ins>Barré</ins>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -191,9 +200,11 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 
 ### <ins>Souligné</ins>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -214,8 +225,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 ### <ins>Gras et Référencement</ins>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -234,8 +247,8 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 <strong>Ce texte est en gras et référencé.</strong>
 ```
+</dd></dl>
 
-</details>
 </details>
 
 <details id="citation">
@@ -243,9 +256,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     <h3>Citations/mise en page</h3>
     </summary>
 
-<div style="padding-left: 25px;">
+<blockquote>
 
 ### <ins>Simple</ins>
+<dl><dd>
 
 <details>
     <summary>
@@ -267,9 +281,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 ### <ins>Citation avec plusieurs paragraphes</ins>
-
+<dl><dd>
 <details>
     <summary>
         <strong>👀 Visual</strong>
@@ -293,8 +308,10 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 ### <ins>Citation imbriquées</ins>
+<dl><dd>
 
 <details>
     <summary>
@@ -327,9 +344,11 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 ```
 
 </details>
+</dd></dl>
 
 
 ### <ins>Citation contenant d'autres éléments</ins>
+<dl><dd>
 
 Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous les éléments ne sont pas utilisables ; il vous faudra faire des essais pour déterminer lesquels fonctionnent.
 
@@ -363,14 +382,16 @@ Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous l
 
 </details>
 </details>
+</dd></dl>
+<dl><dd>
 
 <details id="bloc-de-code">
     <summary>
     <h3>Bloc de code</h3>
     </summary>
 
-<div style="padding-left: 25px;">
-
+<blockquote>
+<dl><dd>
 <details>
     <summary>
         <strong>👀 Visual</strong>
@@ -393,17 +414,19 @@ type de code(text,c,py,…)
 
 </details>
 </details>
+</dd></dl>
 
+<dl><dd>
 <details id= "list">
     <summary>
         <h3> Les listes</h3>
     </summary>
 
-<div style="padding-left: 25px;">
+<blockquote>
 
 #### <ins>Listes ordonnées</ins>
 
-
+<dl><dd>
 <details>
     <summary>
         <strong>👀 Visual</strong>
@@ -448,12 +471,14 @@ type de code(text,c,py,…)
 
 </details>
 </details>
+</dd></dl>
 
+<dl><dd>
 <details id="couleur">
     <summary>
         <h3>Couleur</h3>
     </summary>
-<div style="padding-left: 25px;">
+<blockquote>
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
@@ -481,5 +506,6 @@ $\color{green}{\text{Ce texte est en vert}}$
 
 </details>
 </details>
-</ul>
+</blockquote>
+</dd></dl>
 
