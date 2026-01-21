@@ -1,6 +1,6 @@
 *This project has been created by Fcretin,Samaouch,Ale-guel.*
 <!-- Ceci sont des commentaire pour avec mes font et mes icon personnaliser -->
-<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝕀 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
+<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
 <!-- 𝕒 𝕓 𝕔 𝕕 𝕖 𝕗 𝕘 𝕙 𝕚 𝕛 𝕜 𝕝 𝕞 𝕟 𝕠 𝕡 𝕢 𝕣 𝕤 𝕥 𝕦 𝕧 𝕨 𝕩 𝕪 𝕫  -->
 <!-- 𝟘 𝟙 𝟚 𝟛 𝟜 𝟝 𝟞 𝟟 𝟠 𝟡 -->
 <!-- 📘 🗎 🖋 👀 🗣 … -->
@@ -801,11 +801,11 @@ $\color{green}{\text{Ce texte est en vert}}$
         <strong>👀 𝕍isual</strong>
     </summary>
 
-* [`[]()`](https://www.markdowntutorial.com/lesson/3/ "oui")
+* [`[]()`](https://github.com/Tutors42Lyon/Markdown-workshop-2026 "Lien vers le git")
 
-[taglink]: https://www.markdowntutorial.com/lesson/3/
-<!-- [`[]()`][taglink] -->
-* [`[][]`][taglink]
+[taglink]: https://github.com/Tutors42Lyon/Markdown-workshop-2026
+* [`[]()`][taglink]
+* [link][taglink]
 
 </details>
 <details>
@@ -813,14 +813,12 @@ $\color{green}{\text{Ce texte est en vert}}$
         <strong>🗣 𝔼xplain</strong>
     </summary>
 
->Lorsque vous utilisez des caractères inhabituels dans un titre, vous devez définir explicitement un identifiant, par exemple : **`<h2 id="exsummary">𝔼xemple 🗓 summary</h2>`**, afin de créer un lien d'ancrage fonctionnel.
-
 ```
-###### 🗓 𝕊ummary
+* [`[]()`](https://github.com/Tutors42Lyon/Markdown-workshop-2026 "Lien vers le git")
 
-- [𝕃ink](#link)
-- [𝕀mages](#images)
-- [🗓 𝔼xemple summary](#exsummary)
+[taglink]: https://github.com/Tutors42Lyon/Markdown-workshop-2026
+* [`[]()`][taglink]
+* [link][taglink]
 ```
 
 </details>
@@ -853,6 +851,14 @@ $\color{green}{\text{Ce texte est en vert}}$
 - [Medias](#Liens)
 - [Graphique](#Graphique)
 
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, add 2 spaces to the end of a line.
+This is a second line.
+
 </details>
 <details>
     <summary>
@@ -864,7 +870,7 @@ $\color{green}{\text{Ce texte est en vert}}$
 ```
 ###### 🗓 𝕊ummary
 
-- [𝔼n-têtes](#en)
+- [𝔼n-têtes](#head)
 - [𝕄ise en forme](#mise_en_forme)
     - [Mettre l'accent sur un élément](#accent)
     - [Citations/mise en page](#citation)
@@ -874,6 +880,14 @@ $\color{green}{\text{Ce texte est en vert}}$
 - [Tableaux](#tableaux)
 - [Medias](#Liens)
 - [Graphique](#Graphique)
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, add 2 spaces to the end of a line.
+This is a second line.
 ```
 
 </details>
@@ -921,4 +935,3 @@ $\color{green}{\text{Ce texte est en vert}}$
 </details>
 </blockquote>
 </dd></dl>
-
