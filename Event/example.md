@@ -1,6 +1,6 @@
 *This project has been created by Fcretin,Samaouch,Ale-guel.*
 <!-- Ceci sont des commentaire pour avec mes font et mes icon personnaliser -->
-<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝔾 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
+<!-- 𝔸 𝔹 ℂ 𝔻 𝔼 𝔽 𝔾 ℍ 𝕀 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ -->
 <!-- 𝕒 𝕓 𝕔 𝕕 𝕖 𝕗 𝕘 𝕙 𝕚 𝕛 𝕜 𝕝 𝕞 𝕟 𝕠 𝕡 𝕢 𝕣 𝕤 𝕥 𝕦 𝕧 𝕨 𝕩 𝕪 𝕫  -->
 <!-- 𝟘 𝟙 𝟚 𝟛 𝟜 𝟝 𝟞 𝟟 𝟠 𝟡 -->
 <!-- 📘 🗎 🖋 👀 🗣 … -->
@@ -20,15 +20,15 @@
     </summary>
 <blockquote>
 
-- [𝔼n-têtes](#en)
+- [𝔼n-têtes](#head)
 - [𝕄ise en forme](#mise_en_forme)
     - [Mettre l'accent sur un élément](#accent)
     - [Citations/mise en page](#citation)
     - [Bloc de code](#bloc-de-code)
     - [Les listes](#list)
     - [Couleur](#couleur)
-- [Tableaux](#Tableaux)
-- [Medias](#Medias)
+- [Tableaux](#tableaux)
+- [Liens](#Liens)
 - [Graphique](#Graphique)
 
 </blockquote>
@@ -36,7 +36,7 @@
 
 ---
 
-<details id= "en">
+<details id= "head">
     <summary>
         <h2>𝔼n-têtes</h2>
     </summary>
@@ -519,8 +519,6 @@ type de code(text,c,py,…)
 ### <ins>Listes de tâches (checkbox)</ins>
 Les checkboxes (ou task lists) sont une fonctionnalité super pratique de GitHub pour créer des listes de tâches interactives.  
 Il faut un espace entre les crochets pour une case vide [ ] et un x pour une case cochée [x].  
-Fonctionnalités interactives
-Sur GitHub, ces checkboxes sont cliquables directement dans l'interface. Tu peux cocher/décocher les cases sans éditer le code Markdown, et GitHub mettra automatiquement à jour le fichier.
 <dl><dd>
 <details>
     <summary>
@@ -533,7 +531,7 @@ Sur GitHub, ces checkboxes sont cliquables directement dans l'interface. Tu peux
 - [x] Version 1.1
 - [ ] Version 2.0
   - [x] Feature A
-  - [ ] Feature B
+  - [ ] **Feature B**
 
 
 </details>
@@ -550,13 +548,15 @@ Sur GitHub, ces checkboxes sont cliquables directement dans l'interface. Tu peux
 - [x] Version 1.1
 - [ ] Version 2.0
   - [x] Feature A
-  - [ ] Feature B
+  - [ ] **Feature B** 
 ```
 
 </details>
 </details>
-<dl><dd>
+</dd></dl>
 
+
+<dl><dd>
 
 <details id="couleur">
     <summary>
@@ -589,6 +589,335 @@ $\color{green}{\text{Ce texte est en vert}}$
 ```
 
 </details>
+</details>
+</blockquote>
+</dd></dl>
+</details>
+
+<details id= "tableaux">
+    <summary>
+        <h2>𝕋ableaux</h2>
+    </summary>
+<blockquote>
+<br>
+
+<dl><dd>
+<details id= "base">
+    <summary>
+        <h3>Syntaxe de base</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+| Colonne 1 | Colonne 2 | Colonne 3 |
+|-----------|-----------|-----------|
+| Ligne 1   | Donnée A  | Donnée X  |
+| Ligne 2   | Donnée B  | Donnée Y  |
+| Ligne 3   | Donnée C  | Donnée Z  |
+
+</details>
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+| Colonne 1 | Colonne 2 | Colonne 3 |
+|-----------|-----------|-----------|
+| Ligne 1   | Donnée A  | Donnée X  |
+| Ligne 2   | Donnée B  | Donnée Y  |
+| Ligne 3   | Donnée C  | Donnée Z  |
+```
+
+</details>
+</details>
+</dd></dl>
+
+
+
+<dl><dd>
+<details id= "simp">
+    <summary>
+        <h3>Syntaxe simplifiée</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+|Colonne 1|Colonne 2|Colonne 3|
+|---|---|---|
+|Ligne 1|Donnée A|Donnée X|
+|Ligne 2|Donnée B|Donnée Y|
+|Ligne 3|Donnée C|Donnée Z|
+
+</details>
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+|Colonne 1|Colonne 2|Colonne 3|
+|---|---|---|
+|Ligne 1|Donnée A|Donnée X|
+|Ligne 2|Donnée B|Donnée Y|
+|Ligne 3|Donnée C|Donnée Z|
+```
+
+</details>
+
+</blockquote>
+</dd></dl>
+
+<dl><dd>
+<details id= "align">
+    <summary>
+        <h3>Alignement du contenu</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+| Gauche | Centré | Droite |
+|:-------|:------:|-------:|
+| texte  | texte  | texte  |
+| align  | align  | align  |
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+| Gauche | Centré | Droite |
+|:-------|:------:|-------:|
+| texte  | texte  | texte  |
+| align  | align  | align  |
+```
+
+</details>
+</blockquote>
+</dd></dl>
+
+
+<dl><dd>
+<details id= "text">
+    <summary>
+        <h3>Cellules avec beaucoup de texte</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+| Titre | Contenu |
+|-------|---------|
+| Court | Simple |
+| Long  | Première ligne<br>Deuxième ligne<br>Troisième ligne |
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+| Titre | Contenu |
+|-------|---------|
+| Court | Simple |
+| Long  | Première ligne<br>Deuxième ligne<br>Troisième ligne |
+```
+
+</details>
+</blockquote>
+</dd></dl>
+
+
+<dl><dd>
+<details id= "pipe">
+    <summary>
+        <h3>Échapper le pipe</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+| Commande | Description |
+|----------|-------------|
+| `cmd \| grep` | Recherche avec pipe |
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+| Commande | Description |
+|----------|-------------|
+| `cmd \| grep` | Recherche avec pipe |
+```
+
+</details>
+
+</blockquote>
+</dd></dl>
+</details>
+
+<details id= "Liens">
+    <summary>
+        <h2>𝕃iens</h2>
+    </summary>
+<blockquote>
+<br>
+
+<dl><dd>
+<details id= "externe">
+    <summary>
+        <h3>Liens externes</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+
+* [`[]()`](https://www.markdowntutorial.com/lesson/3/ "oui")
+
+[taglink]: https://www.markdowntutorial.com/lesson/3/
+<!-- [`[]()`][taglink] -->
+* [`[][]`][taglink]
+
+</details>
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+>Lorsque vous utilisez des caractères inhabituels dans un titre, vous devez définir explicitement un identifiant, par exemple : **`<h2 id="exsummary">𝔼xemple 🗓 summary</h2>`**, afin de créer un lien d'ancrage fonctionnel.
+
+```
+###### 🗓 𝕊ummary
+
+- [𝕃ink](#link)
+- [𝕀mages](#images)
+- [🗓 𝔼xemple summary](#exsummary)
+```
+
+</details>
+</details>
+</dd></dl>
+
+
+
+<dl><dd>
+<details id= "interne">
+    <summary>
+        <h3>Liens internes</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+
+###### 🗓 𝕊ummary
+
+- [𝔼n-têtes](#head)
+- [𝕄ise en forme](#mise_en_forme)
+    - [Mettre l'accent sur un élément](#accent)
+    - [Citations/mise en page](#citation)
+    - [Bloc de code](#bloc-de-code)
+    - [Les listes](#list)
+    - [Couleur](#couleur)
+- [Tableaux](#tableaux)
+- [Medias](#Liens)
+- [Graphique](#Graphique)
+
+</details>
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+>Lorsque vous utilisez des caractères inhabituels dans un titre, vous devez définir explicitement un identifiant, par exemple : **`<h2 id="exsummary">𝔼xemple 🗓 summary</h2>`**, afin de créer un lien d'ancrage fonctionnel.
+
+```
+###### 🗓 𝕊ummary
+
+- [𝔼n-têtes](#en)
+- [𝕄ise en forme](#mise_en_forme)
+    - [Mettre l'accent sur un élément](#accent)
+    - [Citations/mise en page](#citation)
+    - [Bloc de code](#bloc-de-code)
+    - [Les listes](#list)
+    - [Couleur](#couleur)
+- [Tableaux](#tableaux)
+- [Medias](#Liens)
+- [Graphique](#Graphique)
+```
+
+</details>
+
+</blockquote>
+</dd></dl>
+
+<dl><dd>
+<details id= "img">
+    <summary>
+        <h3>𝕀mage</h3>
+    </summary> 
+<blockquote>
+<details>
+    <summary>
+        <strong>👀 𝕍isual</strong>
+    </summary>
+<br>
+
+[imagescat]: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg
+[imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
+[imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "oui c'est le papa"
+
+1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
+1. ![][imagesdog]
+1. ![][imagesgoat]
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+```
+[imagescat]: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg
+[imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
+[imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "oui c'est le papa"
+
+1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
+1. ![][imagesdog]
+1. ![][imagesgoat]
+```
+
 </details>
 </blockquote>
 </dd></dl>
