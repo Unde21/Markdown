@@ -18,7 +18,7 @@
     <summary>
         <h1>𝕊ommaire</h1>
     </summary>
-<ul>
+<div style="padding-left: 25px;">
 
 - [𝔼n-têtes](#en)
 - [𝕄ise en forme](#mise_en_forme)
@@ -41,7 +41,7 @@
         <h2>𝔼n-têtes</h2>
     </summary>
 
-<ul>
+<div style="padding-left: 25px;">
 
 Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par le nombre de # précédant le texte de l’en-tête. 
 
@@ -91,12 +91,12 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     </summary>
 <br>
 
-<ul>
+<div style="padding-left: 25px;">
 <details id= "accent">
     <summary>
         <h3>Mettre l'accent sur un élément</h3>
     </summary> 
-<ul>
+<div style="padding-left: 25px;">
 
 ### <ins>Italique</ins>
 <details>
@@ -243,7 +243,7 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     <h3>Citations/mise en page</h3>
     </summary>
 
-<ul>
+<div style="padding-left: 25px;">
 
 ### <ins>Simple</ins>
 
@@ -369,7 +369,7 @@ Les citations peuvent contenir d'autres éléments formatés en Markdown. Tous l
     <h3>Bloc de code</h3>
     </summary>
 
-<ul>
+<div style="padding-left: 25px;">
 
 <details>
     <summary>
@@ -399,7 +399,7 @@ type de code(text,c,py,…)
         <h3> Les listes</h3>
     </summary>
 
-<ul>
+<div style="padding-left: 25px;">
 
 #### <ins>Listes ordonnées</ins>
 
@@ -453,7 +453,7 @@ type de code(text,c,py,…)
     <summary>
         <h3>Couleur</h3>
     </summary>
-<ul>
+<div style="padding-left: 25px;">
 <details>
     <summary>
         <strong>👀 𝕍isual</strong>
