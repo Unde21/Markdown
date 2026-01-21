@@ -424,7 +424,7 @@ type de code(text,c,py,…)
 
 <blockquote>
 
-#### <ins>Listes ordonnées</ins>
+### <ins>Listes ordonnées</ins>
 
 <dl><dd>
 <details>
@@ -470,10 +470,94 @@ type de code(text,c,py,…)
 ```
 
 </details>
+</dd></dl>
+
+### <ins>Sous listes</ins>
+
+<dl><dd>
+<details>
+    <summary>
+        <strong>👀 Visual</strong>
+    </summary>
+
+<br>
+
+1. First item  
+    * First elem
+    * Second elem
+        1. sub sub sub
+    * Third elem
+2. Second item
+    + First elem
+    - Second elem
+    + Third elem
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+<br>
+
+```
+1. First item  
+    * First elem
+    * Second elem
+        1. sub sub sub
+    * Third elem
+2. Second item
+    + First elem
+    - Second elem
+    + Third elem
+```
+
 </details>
 </dd></dl>
 
+### <ins>Listes de tâches (checkbox)</ins>
+Les checkboxes (ou task lists) sont une fonctionnalité super pratique de GitHub pour créer des listes de tâches interactives.  
+Il faut un espace entre les crochets pour une case vide [ ] et un x pour une case cochée [x].  
+Fonctionnalités interactives
+Sur GitHub, ces checkboxes sont cliquables directement dans l'interface. Tu peux cocher/décocher les cases sans éditer le code Markdown, et GitHub mettra automatiquement à jour le fichier.
 <dl><dd>
+<details>
+    <summary>
+        <strong>👀 Visual</strong>
+    </summary>
+
+<br>
+
+- [x] Version 1.0
+- [x] Version 1.1
+- [ ] Version 2.0
+  - [x] Feature A
+  - [ ] Feature B
+
+
+</details>
+
+<details>
+    <summary>
+        <strong>🗣 𝔼xplain</strong>
+    </summary>
+
+<br>
+
+```
+- [x] Version 1.0
+- [x] Version 1.1
+- [ ] Version 2.0
+  - [x] Feature A
+  - [ ] Feature B
+```
+
+</details>
+</details>
+<dl><dd>
+
+
 <details id="couleur">
     <summary>
         <h3>Couleur</h3>
